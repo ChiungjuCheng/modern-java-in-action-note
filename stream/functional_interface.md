@@ -1,0 +1,1 @@
+https://matthung0807.blogspot.com/2018/09/java-8-javautilfunction-functional.html

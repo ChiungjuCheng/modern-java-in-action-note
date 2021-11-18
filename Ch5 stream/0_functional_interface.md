@@ -1,4 +1,5 @@
-Java8提供許多新的functional interface 在java.util.function的套件當中。
+Java8提供許多新的functional interface在java.util.function的套件當中。
+這些functional interface可以用Lamda來實現，Stream API用了很多的Lamda語法，背後就是用function的class去實現的。
 # Predicate
 傳入一個物件，並回傳boolean
 

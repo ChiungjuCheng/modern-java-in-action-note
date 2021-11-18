@@ -62,3 +62,15 @@ public interface IntPredicate {
 }
 ```
 
+# Functional interface handling Exception
+需要注意的是，Functional 介面方法都沒有宣告丟出Exception，這使得在使用Lamda expression時無法丟出Checked Exception，有兩個方式可以解決。
+1. 宣告自己的functional interface
+```java
+@FunctionalInterface
+public interface customerFunction {
+
+    String customer(InputStream is) throws IOException;
+
+}
+```
+2. catch後包在unchecked exception後再丟出去

@@ -8,13 +8,13 @@
 ```java
 // 給初始值
 int result1 = Stream.of(1,2,3)
-		            .reduce(0, (a,b) -> a+b);
+			.reduce(0, Integer::sum);
 		
 System.out.println(result1); // 6
 
 // 未給定初始值
 Stream.of(1,2,3)
-	.reduce((a,b) -> a+b)
+	.reduce((a,b) -> a+b) // Integer::sum
 	.ifPresent(System.out::println); // 6
 ```
 

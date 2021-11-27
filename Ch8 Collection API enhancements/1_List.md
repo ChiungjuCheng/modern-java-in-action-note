@@ -2,8 +2,7 @@
 若使用for-each並且用Collection方法移除元素的話會拋出ConcurrentModificationException，一定要使用Iterator的remove才行。
 Java 8提供removeIf解決這個困境
 ```java
-List<String> alphabets = Stream.of("A", "B", "C")
-								.collect(Collectors.toList());
+List<String> alphabets = Stream.of("A", "B", "C").collect(Collectors.toList());
 alphabets.removeIf(alphabet->"C".equals(alphabet));
 alphabets.forEach(System.out::println); // A B
 ```

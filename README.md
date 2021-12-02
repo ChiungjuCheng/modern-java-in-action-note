@@ -1,6 +1,6 @@
 # Modern Java In Action 讀後筆記
-使用online compiler撰寫DEMO
-https://www.onlinegdb.com
+希望讀完後能夠增加和釐清一些觀念，並且在讀後整理成筆記，以供日後開發查閱~~~呵呵
+
 ## Ch5 Stream
 0. [Functional Interface](/Ch5%20Working%20with%20stream/0_Functional%20Interface.md)
 1. [Introduction](/Ch5%20Working%20with%20stream/1_Introduction.md)
@@ -12,3 +12,7 @@ https://www.onlinegdb.com
 
 ## Ch8 Collection API enhancements
 1. [List](/Ch8%20Collection%20API%20enhancements/1_List.md)
+
+## Ch12 New Date and Time
+1. [前言](/Ch12%20New%20Date%20and%20Time/1.%20前言.md)  
+2. [LocalDate and LocalTime](/Ch12%20New%20Date%20and%20Time/2.%20LocalDate%20and%20LocalTime.md)
